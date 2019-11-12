@@ -15,7 +15,7 @@ if(NOT hasParent)
 endif ()
 
 SET_MIN_VERSIONS()
-set(LibName template_lib)
+set(LibName render_basicforward)
 project(${LibName})
 
 file(GLOB_RECURSE Src CONFIGURE_DEPENDS include/*.h include/*.hpp src/*.c src/*.cpp)
